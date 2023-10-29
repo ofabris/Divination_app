@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             attempts++;
 
             if (userGuess == numberToGuess) {
-                Toast.makeText(MainActivity.this, "Parabéns! Você adivinhou o número em " + attempts + " tentativas.", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Parabéns! Você adivinhou o número em " + attempts + " tentativas!", Toast.LENGTH_LONG).show();
                 initializeGame();
             } else if (userGuess < numberToGuess) {
                 Toast.makeText(MainActivity.this, "Tente um número maior", Toast.LENGTH_SHORT).show();
